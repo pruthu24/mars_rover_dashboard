@@ -7,7 +7,7 @@ import { Chart as ChartJS, LineElement, CategoryScale, LinearScale, PointElement
 import Box from "@mui/material/Box";
 
 // Socket connection
-const socket = io("http://localhost:3000");
+const socket = io("https://ncvocj.condense.zeliot.in/3dc75c33-2a1c-4081-ad34-ef8125a6ebb1");
 
 // Mock Mars API (replace with a real Mars data API if available)
 const fetchMarsData = async () => {
